@@ -6,13 +6,6 @@ Implementation of [Google Cloud Endpoints](https://developers.google.com/appengi
 
 These instructions assume that you are already set-up to run [Dart on App Engine](https://www.dartlang.org/cloud/).
 
-> Important:
-> There currently is a bug in Managed VMs (used to work during the preview)
-> where requests to `/_ah/spi/.*` don't reach the VM which unfortunately means
-> that this currently can't be used in production.
-> You can test in the local dev environment until this issue is fixed:
-> https://code.google.com/p/googleappengine/issues/detail?id=11436
-
 ### Usage
 
 ##### app.yaml configuration
